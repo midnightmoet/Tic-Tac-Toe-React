@@ -1,0 +1,140 @@
+.scoreboard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20rem;
+  font-size: 1.5rem;
+  background-image: repeating-linear-gradient(
+      135deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      67.5deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      112.5deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      112.5deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      22.5deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      22.5deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      157.5deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      67.5deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      67.5deg,
+      hsla(264, 0%, 88%, 0.03) 0px,
+      hsla(264, 0%, 88%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    linear-gradient(90deg, rgb(210, 26, 155), rgb(57, 199, 205));
+  margin: 3rem auto;
+  box-shadow: 0px 0px 8px #888888;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.score {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+.xScore {
+  color: rgb(0, 0, 0);
+  border-bottom: 5px solid rgb(0, 0, 0);
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+
+.oScore {
+  color: rgb(255, 255, 255);
+  border-bottom: 5px solid rgb(255, 255, 255);
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+
+.inactive {
+  border-bottom: 5px solid transparent;
+}

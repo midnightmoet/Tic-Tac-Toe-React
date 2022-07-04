@@ -1,3 +1,18 @@
-<h1>ReactJS Tic Tac Toe</h1>
+# Getting Started with Create React App
 
-<p>This is a basic game made per the react tutorial docs, start to finish, and it functions properly.  Modifications made to the game to make it more eye pleasing.</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Tic Tac Toe 
+
+#  Installing
+1. Clone the latest code on the main branch
+2. Install dependencies
+
+   `npm install`
+
+3. Run the web server!
+
+   `npm start`
+
+#  Usage
+Navigate to http://localhost:3000 on your browser
